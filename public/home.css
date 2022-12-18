@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    background-image: url("../background.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+
+*{
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+nav{
+    background-color: #30333c;
+    padding: 5px 15px 15px 15px;
+}
+nav a{
+    color: #c2c2c7;
+    text-decoration: none;
+    /* letter-spacing: 0.1em; */
+    padding: 25px 10px 20px 5px;
+    font-size: 180%;
+}
+
+nav a:hover{
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+nav a.active{
+    font-size: 200%;
+    color: #ede8e5;
+}
+
+.but{
+    width: 180px;
+    transition: 0.5s;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    font-size: large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Fredoka One', cursive;
+    background-color: black;
+    color: #ede8e5;
+    border-radius: 10px;
+}
+
+.but:hover{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+
+.container{
+    width: auto;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px 30px 50px 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.container a{
+    transition: 1s;
+    color: #ede8e5;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.container a:hover{
+    transition: 0.2s;
+    background-color: #ede8e5;
+    color: black;
+    text-decoration: none;
+    border: 4px black solid;
+}
